@@ -1,0 +1,7 @@
+schema {
+  mutation: RootMutationType
+}
+
+type RootMutationType {
+  createPunchListItem(shapes: [ShapeInput]): String!
+}
