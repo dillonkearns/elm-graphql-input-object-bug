@@ -1,0 +1,12 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sdl.js",
+  "scripts": {
+    "test": "elm-graphql --schema-file sdl.gql && elm make src/Api/InputObject.elm --output=/dev/null"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
