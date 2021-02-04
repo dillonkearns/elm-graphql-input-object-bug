@@ -4,31 +4,7 @@
 
 module Api.ScalarCodecs exposing (..)
 
-import Api.Scalar exposing (defaultCodecs)
-import Json.Decode as Decode exposing (Decoder)
 
-
-type alias DateTime =
-    Api.Scalar.DateTime
-
-
-type alias Id =
-    Api.Scalar.Id
-
-
-type alias Json =
-    Api.Scalar.Json
-
-
-type alias Point =
-    Api.Scalar.Point
-
-
-codecs : Api.Scalar.Codecs DateTime Id Json Point
-codecs =
-    Api.Scalar.defineCodecs
-        { codecDateTime = defaultCodecs.codecDateTime
-        , codecId = defaultCodecs.codecId
-        , codecJson = defaultCodecs.codecJson
-        , codecPoint = defaultCodecs.codecPoint
-        }
+placeholder : String
+placeholder =
+    ""

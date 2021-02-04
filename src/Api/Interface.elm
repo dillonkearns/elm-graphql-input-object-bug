@@ -5,5 +5,6 @@
 module Api.Interface exposing (..)
 
 
-type Node
-    = Node
+placeholder : String
+placeholder =
+    ""

@@ -5,21 +5,6 @@
 module Api.Union exposing (..)
 
 
-type DocumentableUnion
-    = DocumentableUnion
-
-
-type ReviewRequestableUnion
-    = ReviewRequestableUnion
-
-
-type ShapeUnion
-    = ShapeUnion
-
-
-type StepableUnion
-    = StepableUnion
-
-
-type TaskResourceUnion
-    = TaskResourceUnion
+placeholder : String
+placeholder =
+    ""
